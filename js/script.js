@@ -9,12 +9,12 @@ const questions = [
         ]
     },
     {
-        question: "Você é?",
+        question: "Um amigo seu está meio para baixo, o que você faz?",
         options: [
-            { text: "Meio Burrinho", answer: "a"},
-            { text: "Alegre", answer: "b" },
-            { text: "Triste mais feliz", answer: "c"},
-            { text: "Eletrico", answer: "d"}
+            { text: "Tento fazer ele sorrir, compartilhando algo engraçado ou divertido.", answer: "a"},
+            { text: "Fico ao lado dele, oferecendo minha companhia até que ele se sinta à vontade para falar.", answer: "b" },
+            { text: "Pergunto o que está acontecendo para tentar entender o que está deixando ele para baixo.", answer: "c"},
+            { text: "Ofereço meu apoio, mostrando que ele pode contar comigo para o que precisar.", answer: "d"}
         ]
     },
     // Adicione as outras perguntas aqui de forma semelhante
@@ -38,12 +38,12 @@ const questions = [
                     ]
     },
     {
-        question: "Qual filme Você?",
+        question: "Se o seu cachorro tivesse uma personalidade, qual seria?",
         options: [
-            { text: "Sempre ao seu lado", answer: "a"},
-            { text: "Perdido pra Cachorro", answer: "b"},
-            { text: "Cães e Gatos", answer: "c"},
-            { text: "De volta pra casa", answer: "d"}
+            { text: "Independente e brincalhão", answer: "a"},
+            { text: "Calmo e carinhoso", answer: "b"},
+            { text: "Aventureiro e cheio de energia", answer: "c"},
+            { text: "Protetor e leal", answer: "d"}
         ]
     },
  

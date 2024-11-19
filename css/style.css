@@ -5,7 +5,7 @@ body, html {
     padding: 0;
     height: 100%;
     font-family: Arial, sans-serif;
-    background: url(../img/fundo.jpg);
+    background: url(../img/fundoo.jpg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,6 +17,7 @@ body, html {
     max-width: 400px;
     height: 100%;
     display: flex;
+    font-size: 14px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -30,11 +31,11 @@ body, html {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     width: 100%;
-    flex-grow: 1;
+    flex-grow: 1; 
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align:center;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 
@@ -75,6 +76,7 @@ h3 {
 #result-card {
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .result-image {
@@ -87,7 +89,7 @@ h3 {
 }
 
 .result-area {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     color: #333;
     margin-top: 10px;
@@ -110,13 +112,10 @@ h3 {
     background-color:  #7957ac;
 }
 
-/* .logo-img {
-    max-width: 100px;
-    margin-bottom: 20px;
-} */
-
 .alink{
     color: #fff;
+    text-decoration: none;
+    cursor: url('../img/tennis.png'), auto;
 }
 
 .start-button {
